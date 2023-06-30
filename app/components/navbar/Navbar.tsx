@@ -87,8 +87,6 @@ const Navbar = () => {
                     font-semibold 
                     py-3
                     px-5
-                    focus:bg-black
-                    focus:text-white
                   "
                 >
                   About
@@ -110,8 +108,6 @@ const Navbar = () => {
                     font-semibold 
                     py-3
                     px-5
-                    focus:bg-black
-                    focus:text-white
                   "
                 >
                   Contact
