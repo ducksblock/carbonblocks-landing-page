@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+.btn-effect {
+  background: linear-gradient(to left, black 50%, white 50%) right;
+  background-size: 200%;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-effect:hover {
+  background-position: left;
+}
+
+.contact-effect {
+  background: linear-gradient(to bottom, black 50%, white 50%) top;
+  background-size: 200%;
+  transition: 0.25s ease-in-out;
+}
+
+.active {
+  color: rgb(74 222 128);
+}
+
+.border-effect {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    270deg,
+    rgb(129, 177, 249),
+    rgb(74 222 128),
+    rgb(199, 143, 255)
+  );
+  background-size: 400% 400%;
+
+  animation: animate-border 10s ease infinite;
+}
+
+@keyframes animate-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+::selection {
+  color: white;
+  background: rgb(74 222 128);
 }
