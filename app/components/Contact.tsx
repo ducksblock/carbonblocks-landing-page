@@ -5,7 +5,7 @@ import { IoMail, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io5'
 const Contact = () => {
   return (
     <>
-      <a href="mailto:abc@gmail.com">
+      <a href="mailto:carbonblocks@gmail.com">
         <div
           className="
             scroll-smooth

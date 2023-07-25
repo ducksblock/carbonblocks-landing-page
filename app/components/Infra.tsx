@@ -68,8 +68,7 @@ const Infra = () => {
               font-normal
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We partner with lighting companies to implement energy efficient systems such as smart homes, buildings, cities, and industries.
           </div>
         </div>
         <div
@@ -102,7 +101,7 @@ const Infra = () => {
               <IoLeaf size={35} className="text-white" />
             </div>
           </div>
-          Sustainable Solutions
+          Clean Energy
           <div
             className="
               pt-2
@@ -111,8 +110,7 @@ const Infra = () => {
               font-normal
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We incentivize users for generating clean energy. Our focus areas include Solar PVs, wind farms, and energy storage systems.
           </div>
         </div>
         <div
@@ -154,8 +152,7 @@ const Infra = () => {
               font-normal
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We focus on powering the electric era with electric scooters, cars, and deploying EV charging infrastructure.
           </div>
         </div>
       </div>
