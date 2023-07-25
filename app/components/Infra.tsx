@@ -4,8 +4,10 @@ import { IoFlash, IoLeaf, IoCar } from 'react-icons/io5'
 const Infra = () => {
   return (
     <div
+      id="infra"
       className="
-        text-5xl
+        text-4xl
+        md:text-5xl
         font-medium
         text-center
         py-20
@@ -31,7 +33,8 @@ const Infra = () => {
           className="
             pt-20 
             mx-auto 
-            text-3xl 
+            text-2xl
+            md:text-3xl 
             font-semibold
             "
         >
@@ -60,7 +63,8 @@ const Infra = () => {
           <div
             className="
               pt-2
-              text-xl
+              text-lg
+              md:text-xl
               font-normal
             "
           >
@@ -72,7 +76,8 @@ const Infra = () => {
           className="
             pt-20 
             mx-auto 
-            text-3xl 
+            text-2xl
+            md:text-3xl 
             font-semibold
             "
         >
@@ -101,7 +106,8 @@ const Infra = () => {
           <div
             className="
               pt-2
-              text-xl
+              text-lg
+              md:text-xl
               font-normal
             "
           >
@@ -112,8 +118,9 @@ const Infra = () => {
         <div
           className="
             pt-20 
-            mx-auto 
-            text-3xl 
+            mx-auto
+            text-2xl 
+            md:text-3xl 
             font-semibold
             "
         >
@@ -142,7 +149,8 @@ const Infra = () => {
           <div
             className="
               pt-2
-              text-xl
+              text-lg
+              md:text-xl
               font-normal
             "
           >

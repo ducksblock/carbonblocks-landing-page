@@ -5,7 +5,6 @@ import Container from '../Container'
 import Button from './Button'
 import Logo from './Logo'
 import { useState } from 'react'
-import UserMenu from './UserMenu'
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
@@ -13,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="
+      className=" 
         fixed 
         w-full 
         bg-white/50
@@ -39,6 +38,7 @@ const Navbar = () => {
                 gap-3 
                 md:gap-0
                 cursor-pointer  
+                container-effect
               "
             >
               <Link
@@ -55,7 +55,7 @@ const Navbar = () => {
                 to="mission"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 onClick={handleClick}
               >
@@ -66,6 +66,8 @@ const Navbar = () => {
                     font-semibold 
                     py-3
                     px-5
+                    hidden
+                    md:block
                   "
                 >
                   Mission
@@ -73,7 +75,7 @@ const Navbar = () => {
               </Link>
 
               <Link
-                to="about"
+                to="infra"
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -87,9 +89,11 @@ const Navbar = () => {
                     font-semibold 
                     py-3
                     px-5
+                    hidden
+                    md:block
                   "
                 >
-                  About
+                  Solutions
                 </div>
               </Link>
 
@@ -108,11 +112,14 @@ const Navbar = () => {
                     font-semibold 
                     py-3
                     px-5
+                    hidden
+                    md:block
                   "
                 >
                   Contact
                 </div>
               </Link>
+
               <Button />
             </div>
           </Container>

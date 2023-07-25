@@ -11,6 +11,10 @@
   }
 }
 
+.container-effect {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .btn-effect {
   background: linear-gradient(to left, black 50%, white 50%) right;
   background-size: 200%;

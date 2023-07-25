@@ -15,10 +15,12 @@ const Button = () => {
           p-4 
           md:px-6 
           md:py-2 
+          text-sm
+          font-medium
           items-center 
           md:gap-3 
-          rounded-xl
-          md:rounded-full 
+          rounded-full
+          md:rounded-full
           bg-black
           text-white
           hover:bg-white

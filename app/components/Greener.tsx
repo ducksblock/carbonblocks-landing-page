@@ -28,22 +28,26 @@ const Greener = () => {
         <div
           className="
             absolute 
-            bottom-56 
+            bottom-10
+            md:bottom-40
+            lg:bottom-56 
             text-white 
             font-semibold 
             text-xl 
-            md:text-4xl 
+            md:text-2xl
+            lg:text-4xl 
             text-center
             "
         >
-          Let's Make the Future
+          Let&apos;s Make the Future
           <div
             className="
               font-bold 
-              sm:mt-4 
-              md:mt-28 
+              mt-4 
+              md:mt-8
+              lg:mt-28 
               text-[70px] 
-              md:text-[50px] 
+              md:text-[90px] 
               lg:text-[200px] 
               xl:text-[250px]
               "

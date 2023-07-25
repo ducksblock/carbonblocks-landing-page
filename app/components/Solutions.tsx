@@ -18,7 +18,7 @@ const Solutions = () => {
             pt-10 
             text-black 
             font-semibold 
-            text-[50px] 
+            text-[40px] 
             md:text-[70px] 
             lg:text-[80px] 
             text-center
@@ -35,7 +35,7 @@ const Solutions = () => {
           </p>
           <div
             className="
-              text-[30px]
+              text-[25px]
               md:text-[70px]
               lg:text-[80px]
               font-normal
@@ -82,16 +82,20 @@ const Solutions = () => {
                   md:left-20 
                   md:top-28 
                   w-auto 
-                  p-5 
+                  m-2
+                  md:p-5 
                   md:bg-neutral-600/50 
                   md:border-2 
                   md:border-neutral-300/30 
-                  rounded-xl 
-                  backdrop-blur-md 
+                  md:rounded-xl 
+                  md:backdrop-blur-md 
                   text-white 
-                  text-2xl font-medium"
+                  text-2xl 
+                  font-medium
+                "
               >
-                REAL-TIME DATA
+                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">REAL-TIME</span>{' '}
+                DATA
               </div>
               <div
                 className="
@@ -99,19 +103,21 @@ const Solutions = () => {
                   text-center 
                   md:right-16 
                   md:bottom-24 
-                  w-auto 
-                  p-5 
+                  w-auto
+                  m-2 
+                  md:p-5 
                   md:bg-neutral-600/50 
                   md:border-2 
                   md:border-neutral-300/30 
-                  rounded-xl 
-                  backdrop-blur-md 
+                  md:rounded-xl 
+                  md:backdrop-blur-md 
                   text-white 
                   text-2xl 
                   font-medium
                   "
               >
-                REAL-TIME IMPACT
+                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">REAL-TIME</span>{' '}
+                IMPACT
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ const CallToAction = () => {
   return (
     <>
       <div
+        id="contact"
         className="
           bg-black 
           p-20
@@ -12,8 +13,7 @@ const CallToAction = () => {
         <div
           className="
             text-center 
-            font-bold 
-            text-xl 
+            text-3xl 
             md:text-5xl 
             text-white
           "
@@ -22,13 +22,16 @@ const CallToAction = () => {
             <span
               className="
                 pt-5
+                font-semibold 
                 "
             >
               Ready to maximize your
             </span>
             <div
               className="
-                pt-5 
+                pt-2
+                font-extrabold
+                md:pt-5 
                 bg-gradient-to-r 
                 bg-clip-text 
                 text-transparent 
@@ -53,6 +56,7 @@ const CallToAction = () => {
                 text-white 
                 font-semibold 
                 text-lg 
+                md:text-xl
                 bg-gradient-to-r 
                 from-green-400 
                 to-blue-500 
@@ -60,8 +64,8 @@ const CallToAction = () => {
                 shadow-lg 
                 shadow-green-500/40
                 rounded-lg 
-                px-8 
-                py-5
+                p-4
+                md:p-5
                 text-center 
                 mr-2 
                 mb-2 

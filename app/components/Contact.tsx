@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <>
       <div
-        id="contact"
         className="
           scroll-smooth
           text-[40px]
@@ -29,7 +28,7 @@ const Contact = () => {
         "
       >
         Email
-        <IoMail className="mr-14" />
+        <IoMail className="mr-6 md:mr-14" />
       </div>
       <div
         className="
@@ -55,7 +54,7 @@ const Contact = () => {
         "
       >
         LinkedIn
-        <IoLogoLinkedin className="mr-14" />
+        <IoLogoLinkedin className="mr-6 md:mr-14" />
       </div>
       <div
         className="
@@ -73,13 +72,15 @@ const Contact = () => {
           hover:text-black
           cursor-pointer
           btn-effect
+          border-t-2
+          border-neutral-700
           flex
           justify-between
           items-center
         "
       >
         Twitter
-        <IoLogoTwitter className="mr-14" />
+        <IoLogoTwitter className="mr-6 md:mr-14" />
       </div>
     </>
   )

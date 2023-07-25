@@ -3,10 +3,11 @@
 const Marquee = () => {
   return (
     <>
+      {/* min-h-screen */}
       <div
         className="
-          min-h-screen 
-          flex items-center 
+          flex 
+          items-center 
           justify-center
         "
       >
@@ -23,7 +24,8 @@ const Marquee = () => {
               absolute 
               top-32 
               left-1/4 
-              w-80 
+              w-60
+              md:w-80 
               h-80 
               bg-purple-300 
               rounded-full 
@@ -36,9 +38,11 @@ const Marquee = () => {
           <div
             className="
               absolute 
-              top-48 
+              top-64
+              md:top-48 
               right-1/3 
-              w-96 
+              w-60
+              md:w-96 
               h-96 
               bg-green-300 
               rounded-full 
@@ -51,9 +55,11 @@ const Marquee = () => {
           <div
             className="
               absolute 
-              bottom-14 
-              right-2/4 
-              w-80 
+              bottom-28
+              md:bottom-14
+              md:right-2/4
+              w-60
+              md:w-80 
               h-80 
               bg-yellow-300 
               rounded-full 
@@ -69,11 +75,12 @@ const Marquee = () => {
           <div
             id="marquee"
             className="
+              relative
               overflow-hidden 
               flex 
               justify-start
               items-center
-              h-screen
+              h-[calc(100dvh)]
             "
           >
             <div
