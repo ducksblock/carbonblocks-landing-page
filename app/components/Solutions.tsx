@@ -94,7 +94,9 @@ const Solutions = () => {
                   font-medium
                 "
               >
-                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">REAL-TIME</span>{' '}
+                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">
+                  REAL-TIME
+                </span>{' '}
                 DATA
               </div>
               <div
@@ -116,7 +118,9 @@ const Solutions = () => {
                   font-medium
                   "
               >
-                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">REAL-TIME</span>{' '}
+                <span className="h-2 bg-black md:bg-transparent px-1 rounded-sm">
+                  REAL-TIME
+                </span>{' '}
                 IMPACT
               </div>
             </div>

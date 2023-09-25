@@ -68,7 +68,8 @@ const Infra = () => {
               font-normal
             "
           >
-            We partner with lighting companies to implement energy efficient systems such as smart homes, buildings, cities, and industries.
+            We partner with lighting companies to implement energy efficient
+            systems such as smart homes, buildings, cities, and industries.
           </div>
         </div>
         <div
@@ -110,7 +111,8 @@ const Infra = () => {
               font-normal
             "
           >
-            We incentivize users for generating clean energy. Our focus areas include Solar PVs, wind farms, and energy storage systems.
+            We incentivize users for generating clean energy. Our focus areas
+            include Solar PVs, wind farms, and energy storage systems.
           </div>
         </div>
         <div
@@ -152,7 +154,8 @@ const Infra = () => {
               font-normal
             "
           >
-            We focus on powering the electric era with electric scooters, cars, and deploying EV charging infrastructure.
+            We focus on powering the electric era with electric scooters, cars,
+            and deploying EV charging infrastructure.
           </div>
         </div>
       </div>

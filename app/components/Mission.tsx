@@ -43,7 +43,10 @@ const Mission = () => {
             md:text-2xl
           "
         >
-          Nature-based carbon offset projects face trust & traceability issues. Current processes (reforestation, afforestation, carbon sequestration, etc.) lack transparency, creating doubts about effectiveness & long-term sustainability.
+          Nature-based carbon offset projects face trust & traceability issues.
+          Current processes (reforestation, afforestation, carbon sequestration,
+          etc.) lack transparency, creating doubts about effectiveness &
+          long-term sustainability.
         </div>
         <div
           className="
@@ -67,7 +70,11 @@ const Mission = () => {
             md:text-2xl
           "
         >
-          Carbonblocks is building a democratized carbon credit market using blockchain and IoT technology to overcome existing challenges. The platform tracks real-time data from renewable energy, energy efficiency, agriculture, and industrial projects, providing a data-driven, real-time impact measurement.
+          Carbonblocks is building a democratized carbon credit market using
+          blockchain and IoT technology to overcome existing challenges. The
+          platform tracks real-time data from renewable energy, energy
+          efficiency, agriculture, and industrial projects, providing a
+          data-driven, real-time impact measurement.
         </div>
         <div
           className="
@@ -91,7 +98,11 @@ const Mission = () => {
             md:text-2xl
           "
         >
-          We provide organizations with comprehensive carbon management tools to analyze, reduce, and offset their emissions. By connecting environmentally conscious consumers with impactful initiatives, we strive to transform capitalism into a force for good and create a thriving low-carbon future.
+          We provide organizations with comprehensive carbon management tools to
+          analyze, reduce, and offset their emissions. By connecting
+          environmentally conscious consumers with impactful initiatives, we
+          strive to transform capitalism into a force for good and create a
+          thriving low-carbon future.
         </div>
       </div>
     </div>

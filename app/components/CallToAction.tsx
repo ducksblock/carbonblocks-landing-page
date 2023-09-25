@@ -50,7 +50,10 @@ const CallToAction = () => {
             mt-5
             "
         >
-          <a href="https://forms.gle/6uUDapoEWtMMeatJ8" target="https://forms.gle/6uUDapoEWtMMeatJ8">
+          <a
+            href="https://forms.gle/6uUDapoEWtMMeatJ8"
+            target="https://forms.gle/6uUDapoEWtMMeatJ8"
+          >
             <button
               type="button"
               className="
