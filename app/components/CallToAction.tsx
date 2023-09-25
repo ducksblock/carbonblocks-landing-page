@@ -50,29 +50,31 @@ const CallToAction = () => {
             mt-5
             "
         >
-          <button
-            type="button"
-            className="
-                text-white 
-                font-semibold 
-                text-lg 
-                md:text-xl
-                bg-gradient-to-r 
-                from-green-400 
-                to-blue-500 
-                hover:bg-gradient-to-bl
-                shadow-lg 
-                shadow-green-500/40
-                rounded-lg 
-                p-4
-                md:p-5
-                text-center 
-                mr-2 
-                mb-2 
-            "
-          >
-            Express Interest
-          </button>
+          <a href="https://forms.gle/6uUDapoEWtMMeatJ8" target="https://forms.gle/6uUDapoEWtMMeatJ8">
+            <button
+              type="button"
+              className="
+                  text-white 
+                  font-semibold 
+                  text-lg 
+                  md:text-xl
+                  bg-gradient-to-r 
+                  from-green-400 
+                  to-blue-500 
+                  hover:bg-gradient-to-bl
+                  shadow-lg 
+                  shadow-green-500/40
+                  rounded-lg 
+                  p-4
+                  md:p-5
+                  text-center 
+                  mr-2 
+                  mb-2 
+              "
+            >
+              Express Interest
+            </button>
+          </a>
         </div>
       </div>
     </>
