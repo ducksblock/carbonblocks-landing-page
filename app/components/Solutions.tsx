@@ -65,7 +65,7 @@ const Solutions = () => {
                 lg:px-8
                 "
             >
-              <img
+              <Image
                 src="/assets/cb-dapp-ss.png"
                 width={960}
                 height={540}
