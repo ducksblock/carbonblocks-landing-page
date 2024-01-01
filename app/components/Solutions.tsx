@@ -70,6 +70,7 @@ const Solutions = () => {
                 width={960}
                 height={540}
                 alt="Carbonblocks DApp"
+                unoptimized
                 className="
                   m-auto 
                   pt-5
