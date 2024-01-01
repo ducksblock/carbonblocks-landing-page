@@ -31,7 +31,7 @@ const Button = () => {
           btn-effect
         "
       >
-        Launch App
+        Coming Soon
       </div>
     </div>
   )
